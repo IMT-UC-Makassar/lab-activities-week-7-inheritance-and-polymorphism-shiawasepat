@@ -1,6 +1,6 @@
 package oop.lab;
 
-public class CheckingAccount extends BankAccount {
+public class CheckingAccount extends BankAccount implements OnlineService {
     public CheckingAccount(String accountNumber, String accountHolder, double balance) {
         super(accountNumber, accountHolder, balance);
     }

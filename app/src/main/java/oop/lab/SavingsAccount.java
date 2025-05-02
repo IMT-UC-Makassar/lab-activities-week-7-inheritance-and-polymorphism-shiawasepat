@@ -1,6 +1,6 @@
 package oop.lab;
 
-public class SavingsAccount extends BankAccount {
+public class SavingsAccount extends BankAccount implements OnlineService {
     
     public SavingsAccount(String accountNumber, String accountHolder, double balance) {
         super(accountNumber, accountHolder, balance);
